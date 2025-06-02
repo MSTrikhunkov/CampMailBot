@@ -1,0 +1,6 @@
+*.env
+.vs/
+.idea/
+.vscode/
+__pycache__/
+*.xlsx

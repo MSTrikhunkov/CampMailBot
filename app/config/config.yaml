@@ -1,0 +1,18 @@
+banned:
+- id: 1
+  reason: Rules Violation
+locations:
+- file: Emerald.json
+  name: Изумруд
+- file: XMASTree.json
+  name: Елочки
+- file: Larks.json
+  name: Жаворонки
+- file: Sochi.json
+  name: Сочи
+- file: Anapa.json
+  name: Анапа
+printers:
+- id: 1
+  location: Изумруд
+token: ENTER_YOUR_TOKEN

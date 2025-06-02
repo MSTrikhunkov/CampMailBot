@@ -1,0 +1,20 @@
+{
+    "build": {
+        "dockerfile": "devcontainer.dockerfile"
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/dev/${localWorkspaceFolderBasename},type=bind",
+    "workspaceFolder": "/home/dev/${localWorkspaceFolderBasename}",
+
+    "runArgs": [
+        "--privileged"
+    ]
+}
